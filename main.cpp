@@ -68,7 +68,7 @@ float ControlSignal;          //[Do not modify] Control signal to actuator
 
 
 int main()
-{
+{   
     //Set baudrate
 
     while(1) {
