@@ -1,5 +1,3 @@
-![](./resources/official_armmbed_example_badge.png)
-
 # SY202 Ping-Pong Elevator Project
 This is part of USNA SY202 Project 1.
 Date: March 2023
