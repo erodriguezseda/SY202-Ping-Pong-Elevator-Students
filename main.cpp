@@ -13,10 +13,11 @@ Date:
     Set Serial Connection to PC to desired baudrate
     While(true)  //indefinite while loop
         Set Air Blower to zero 
-        Ask User for Control type
-        Ask User for desired height of elevator
-        Ask User for duration of experiment
-        Ask User for frequency of the control experiment
+        Ask User for:
+            Q1: Control type
+            Q2: Desired height of elevator
+            Q3: Duration of experiment
+            Q4: Frequency of the control experiment
         While (time <= Duration of experiment)  //Enter Control Loop
             Read Sensor
             Convert from voltage to Measured Height
@@ -73,9 +74,8 @@ int main()
 
     while(1) {
         blower = 0.0;
-        //Provide instrunctions to user
-        //Recieve and store data for experiments from user
-        //Example: duration of experiments, type of control, etc. 
+        //Ask user for experiment paramters
+        // Questions Q1, Q2, Q3, Q4
         Ts = 1/fs;
         t.start();
         tlog.start();
